@@ -11,5 +11,6 @@ ENV SRC_PATH_KEY /src/tls.key
 
 ENV TARGET_PATH_KEYSTORE /target/keystore
 ENV TARGET_PASSWORD password
+ENV TARGET_ALIAS key
 
 ENTRYPOINT ["/entrypoint.sh"]
